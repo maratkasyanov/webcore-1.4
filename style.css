@@ -78,7 +78,6 @@ header{
   justify-content:flex-start;
   align-items: center;
   margin-left: 5%;
-  margin-top: -3%;
 }
 .burger-menu__btn-left{
  
@@ -88,7 +87,7 @@ border: none;
 height: 40px;
 width: 40px;
 margin-right: 22px;
-margin-top: -4%;
+
 }
 .container
 .burger-menu__btn-right{
@@ -99,12 +98,6 @@ border-radius: 20px;
 border: none;
 height: 40px;
 width: 40px;
-}
-.burger-menu__btn-left-img{
-margin-top: 2px;
-}
-.burger-menu__btn-right-img{
-  margin-top: 2px;
 }
 .footer__nav-elem{
      
@@ -121,7 +114,6 @@ width: 40px;
 }
 .footer__nav{
   margin-left: 5%;
- margin-top: 40%;
 }
 .footer__email-txt{
   font-family: 'TT Lakes';
@@ -144,9 +136,34 @@ line-height: 32px;
 color: #1B1C21;
 }
 .footer__lang{
-  margin-top: 10%;
+  margin-top: 5%;
   margin-left: 5%;
-  margin-bottom: 3%;
+  margin-bottom: 1%;
+}
+.burger-menu__btn-left__img{
+  background-image: url(img/krest.svg);
+  background-repeat: no-repeat, repeat;
+    background-position: center;
+}
+.burger-menu__btn-left__img2{
+  background-image: url(img/lupa.svg);
+  background-repeat: no-repeat, repeat;
+    background-position: center;
+}
+.footer__nav-elem__img1{
+  background-image: url(img/trubka.svg);
+  background-repeat: no-repeat, repeat;
+    background-position: center;
+}
+.footer__nav-elem__img2{
+  background-image: url(img/mess.svg);
+  background-repeat: no-repeat, repeat;
+    background-position: center;
+}
+.footer__nav-elem__img3{
+  background-image: url(img/cont.svg);
+  background-repeat: no-repeat, repeat;
+    background-position: center;
 }
 .footer__lang-elem{
   font-family: 'TT Lakes';
