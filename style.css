@@ -55,6 +55,9 @@ box-shadow: -2px 0px 4px rgba(69, 79, 126, 0.02), 16px 0px 52px rgba(14, 24, 80,
 	margin: 0;
 	padding: 0;
 }
+a{
+  text-decoration: none;
+}
 header{
   background-color: #FFFFFF;
   width: 320px;
@@ -114,6 +117,7 @@ width: 40px;
 }
 .footer__nav{
   margin-left: 5%;
+  margin-bottom: 10px;
 }
 .footer__email-txt{
   font-family: 'TT Lakes';
@@ -126,8 +130,6 @@ margin-left: 5%;
 margin-top: 4%;
 }
 .footer__number-txt{
-  margin-left: 5%;
-  margin-top: 6%;
   font-family: 'TT Lakes';
 font-style: normal;
 font-weight: 700;
@@ -137,8 +139,21 @@ color: #1B1C21;
 }
 .footer__lang{
   margin-top: 5%;
-  margin-left: 5%;
   margin-bottom: 1%;
+  margin-left: 5%;
+}
+.footer__input{
+  display: none;
+}
+.burger-menu__btn-left:hover{
+  opacity: 0.5;
+}
+.footer__nav-elem:hover{
+  opacity: 0.5;
+}
+.footer__email-txt{
+  margin-top: 15px;
+    margin-bottom: 10px;
 }
 .burger-menu__btn-left__img{
   background-image: url(img/krest.svg);
